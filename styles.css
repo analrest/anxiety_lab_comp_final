@@ -5,7 +5,6 @@
     margin: 0;
 }
 
-
 body{
     background-color:#deeff6;
 }
@@ -20,47 +19,133 @@ p{
     color: #033661;
 }
 
-header img{
-    width:100%;
-}
-
-nav{
-    background-color: #033661;
-    overflow:hidden;
-    padding:0;
-}
-
-ul {
-    margin: 0;
-}
-
-.menubar li:hover,li:focus{
-    background-color: rgb(77, 77, 77)
-}
-
-.menubar li{
-    display:block;
-    padding:1rem;
-    float:right;
-}
-
-.menubar a{
-    text-decoration: none;
-    color: white;
-}
-
 main{
-    margin: 0 10%;
+    margin: 15px 10%;
 }
 
-footer{
-    background-color: #033661;
+.abramowitzimg{
+    height:20rem;}
+
+/*Header CSS*/
+
+    header img{
+        width:100%;
+        height: 20rem;
+    }
+
+    img{
+        max-width: 100%;
+        max-height: 100vh;
+    }
+
+/*Nav CSS*/
+    nav{
+        background-color: #033661;
+        overflow:hidden;
+        padding:0;
+    }
+    
+    ul {
+        margin: 0;
+    }
+    
+    .menubar li:hover,li:focus{
+        background-color: #87C4E1;
+    }
+    
+    .menubar li{
+        display:block;
+        padding:1rem;
+        float:right;
+        size:1.5rem;
+    }
+    
+    .menubar a{
+        text-decoration: none;
+        color: white;
+    }
+
+/*Footer CSS*/
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 9;
+    background-color: rgba(9,55,91);
+    color: rgb(224, 224, 224);
+    padding: 25px 5%;
 }
 
-footer a{
-    color: #deeff6;
+
+.office{
+    grid-column: 1/2;
+    grid-row:2/4;
+}
+.po{
+    grid-column:1/2;
+    grid-row: 6/9;
 }
 
-img{
-    height:20rem;
-    display:float;}
+.email, .phone, .fax{
+    text-align: end;
+}
+.email{ 
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.phone{
+    grid-column: 3/4;
+    grid-row:4/6;
+}
+.fax{
+    grid-column: 3/4;
+    grid-row:7/9;
+}
+
+
+.psychlogo{
+    grid-column: 2/3;
+    grid-row:2/9;
+    max-height: 200px;
+    justify-self: center;
+}
+
+/*Contact CSS*/
+.form{
+    padding: 5px;
+    border:5px;
+    justify-self: center;
+  }
+  
+  .form p{
+    margin-left: 2rem;
+    margin-top: 3rem;
+  }
+  
+  .form div{
+    padding:1rem 1rem;
+  }
+  
+  input:hover{
+    border:solid black 2px;
+    border-radius: 2px;
+  }
+  
+  .name input{
+    width:100%;
+    height:2rem;
+  }
+  
+  .submit button{
+    width:100%;
+    padding:0.5rem;
+    border:none;
+    border-radius: 10px;
+    background-size: 300vw;
+    color:aliceblue;
+    background-color: rgba(9,55,91);
+  }
+  
+  .submit button:hover, .submit button:focus{
+    cursor:pointer;
+    background-color: #87C4E1;
+  } 
