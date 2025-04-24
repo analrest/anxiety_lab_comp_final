@@ -63,6 +63,8 @@ main{
     .menubar a{
         text-decoration: none;
         color: white;
+        font-family: "Manrope";
+        font-weight: bold;
     }
 
 /*Footer CSS*/
