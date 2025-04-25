@@ -14,17 +14,15 @@ h1, h2, h3, h4, h5{
     color: #033661;
 }
 
-p{
+p, li{
     font-family: "Newsreader";
     color: #033661;
+    font-size: 1.2rem;
 }
 
 main{
-    margin: 15px 10%;
+    margin: 15px 5%;
 }
-
-.abramowitzimg{
-    height:20rem;}
 
 /*Header CSS*/
 
@@ -104,46 +102,44 @@ main{
 
 /*Footer CSS*/
 footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 9;
     background-color: rgba(9,55,91);
     color: rgb(224, 224, 224);
     padding: 25px 5%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.3fr;
 }
-
 
 .office{
-    grid-column: 1/2;
-    grid-row:2/4;
+    grid-row:2/3;
 }
 .po{
-    grid-column:1/2;
-    grid-row: 6/9;
+    grid-row: 3/4;
+    align-self:end;
 }
 
 .email, .phone, .fax{
-    text-align: end;
+    grid-column: 2/3;
+    text-align:right;
 }
 .email{ 
-    grid-column: 3/4;
-    grid-row: 2/3;
+    grid-row:2/4;
 }
 .phone{
-    grid-column: 3/4;
-    grid-row:4/6;
+    grid-row:2/3;
+    align-self:end;
 }
 .fax{
-    grid-column: 3/4;
-    grid-row:7/9;
+    grid-row:3/4;
+    align-self:end;
 }
 
-
 .psychlogo{
-    grid-column: 2/3;
-    grid-row:2/9;
-    max-height: 200px;
+    max-height: 100px;
+    grid-row:1/2;
+    grid-column: 1/3;
     justify-self: center;
+    margin: 5px;
 }
 
 /*Contact CSS*/
@@ -186,3 +182,98 @@ footer {
     cursor:pointer;
     background-color: #87C4E1;
   } 
+
+  /*Home CSS*/
+  .home aside{
+    padding:25px;
+    background-color:#033661;
+    border:solid 15px #87C4E1;
+    margin-bottom: 20px;
+  }
+  .home aside h4{
+    color:#deeff6;
+  }
+  .maingrid img{
+    max-height: 250px;
+    justify-self:center;
+  }
+
+  /*About CSS*/
+
+  .personal{
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows:1;
+    grid-gap:20px;
+  }
+  .personaltext{
+    grid-column:1/2;
+    grid-row: 0/1;
+  }
+  .personalimg{
+    grid-column:2/3;
+    grid-row: 0/1;
+    align-self: center;
+  }
+
+  @media screen and (min-width: 700px) {
+
+    /*Home CSS*/
+    .maingrid{
+        display:grid;
+        grid-template-columns: 1fr 2fr;
+      }
+    .maingrid img{
+        padding: 0 20px;
+    }
+
+    /*Footer CSS*/
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 8;
+    background-color: rgba(9,55,91);
+    color: rgb(224, 224, 224);
+    padding: 25px 5%;
+}
+
+.office{
+    grid-column: 1/2;
+    grid-row:2/4;
+}
+.po{
+    grid-column:1/2;
+    grid-row: 5/8;
+}
+
+.email, .phone, .fax{
+    text-align: end;
+}
+.email{ 
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.phone{
+    grid-column: 3/4;
+    grid-row:4/5;
+}
+.fax{
+    grid-column: 3/4;
+    grid-row:6/8;
+}
+
+
+.psychlogo{
+    grid-column: 2/3;
+    grid-row:2/9;
+    max-height: 150px;
+    justify-self: center;
+    align-self: center;
+}
+  }
+
+@media screen and (min-width: 768px){
+    main{
+        margin: 15px 20%;
+    }
+}
