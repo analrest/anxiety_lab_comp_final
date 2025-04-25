@@ -63,7 +63,7 @@ main{
     }
 
     .menubar ul{
-        display: flex;
+        display: hidden;
         border: solid green 2px;
         text-align: left;
         flex-direction: column;
