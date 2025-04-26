@@ -3,6 +3,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    font-family: "Manrope";
 }
 
 body{
@@ -15,7 +16,7 @@ h1, h2, h3, h4, h5{
 }
 
 p, li{
-    font-family: "Newsreader";
+    font-family: "Manrope";
     color: #033661;
     font-size: 1.2rem;
 }
@@ -75,10 +76,11 @@ main{
     }
 
     .submenubar {
+        width: 100%;
         display: none;
         list-style: none;
         position: absolute;
-        background-color: #87C4E1;
+        background-color: #033661;
         border: solid rgb(0, 255, 8) 2px;
     }
 
@@ -90,8 +92,10 @@ main{
         font-weight: bold;
     }
 
-    .submenubar li:hover, .submenubar li:focus {
+    .menubar li:hover, .submenubar li:hover, .submenubar li:focus {
         text-decoration: underline;
+        background-color: #87C4E1;
+
     }
     
     .dropdown:hover .submenubar {
