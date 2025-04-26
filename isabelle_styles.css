@@ -219,7 +219,7 @@ label, select {
     
     .unc-info {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
     }
     
@@ -228,7 +228,7 @@ label, select {
     .interest {
         display: flex;
         flex-direction: column;
-        gap: 0.5rem;
+        gap: 2px;
     }
     
     textarea {
@@ -241,16 +241,16 @@ label, select {
     input[type="email"],
     select {
         width: 100%;
-        padding: 0.75rem;
+        padding: 8px;
         font-size: 1rem;
     }
     
-    .courses label,
-    .interests label {
-        font-weight: normal;
-    }
     
     label {
         font-weight: bold;
+    }
+
+    .courses {
+        font-weight: normal;
     }
 }
