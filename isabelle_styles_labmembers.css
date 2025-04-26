@@ -87,3 +87,14 @@ footer {
     justify-self: center;
     margin: 5px;
 }
+
+/* Lab people */
+.lab-picture {
+    display: flex;
+    justify-content: center;
+}
+
+.lab-picture img {
+    width: 90%;
+    border: 18px solid rgba(9,55,91);
+}
