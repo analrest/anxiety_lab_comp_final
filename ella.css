@@ -60,10 +60,11 @@ main{
     }
 
     .menubar ul{
-        display: hidden;
+        display: none;
         border: solid green 2px;
         text-align: left;
         flex-direction: column;
+        position: absolute;
     }
     
     .menubar a{
@@ -95,6 +96,8 @@ main{
     
     .dropdown:hover .submenubar {
         display: block;
+        top: 100%;
+        left: 0;
     }
 
 
