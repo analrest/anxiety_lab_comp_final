@@ -91,11 +91,11 @@ footer {
 }
 
 /* Form CSS */
-.getting_invovled-form{
+.getting_invovled_form form{
+    font-family: "Manrope";
     display: grid;
     grid-template-columns: 1fr ;
-    grid-auto-rows: auto;
-    
+    grid-auto-rows: auto;   
 }
 
 
