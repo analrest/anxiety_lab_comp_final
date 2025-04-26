@@ -174,3 +174,6 @@ form {border: 3px solid blue}
 }
 
 
+/* Media query */
+@media screen and (min-width: 768px) {
+
