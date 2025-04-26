@@ -3,7 +3,6 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    font-family: "Manrope";
 }
 
 body{
@@ -16,7 +15,7 @@ h1, h2, h3, h4, h5{
 }
 
 p, li{
-    font-family: "Manrope";
+    font-family: "Newsreader";
     color: #033661;
     font-size: 1.2rem;
 }
@@ -76,11 +75,10 @@ main{
     }
 
     .submenubar {
-        width: 100%;
         display: none;
         list-style: none;
         position: absolute;
-        background-color: #033661;
+        background-color: #87C4E1;
         border: solid rgb(0, 255, 8) 2px;
     }
 
@@ -92,10 +90,8 @@ main{
         font-weight: bold;
     }
 
-    .menubar li:hover, .submenubar li:hover, .submenubar li:focus {
+    .submenubar li:hover, .submenubar li:focus {
         text-decoration: underline;
-        background-color: #87C4E1;
-
     }
     
     .dropdown:hover .submenubar {
@@ -152,7 +148,11 @@ footer {
 .form{
     padding: 5px;
     border:5px;
-    justify-self: center;
+    justify-items: center;
+    display: grid;
+    border: solid #033661;
+    border-radius: 20px;
+    margin:0 10% 25px 10%;
   }
   
   .form p{
@@ -189,6 +189,18 @@ footer {
     cursor:pointer;
     background-color: #87C4E1;
   } 
+
+  .thankyou{
+    text-align: center;
+  }
+
+  .bluebutton{
+    background-color: #87C4E1;
+    border-radius: 20px;
+    padding:20px;
+    margin-top:15px;
+    text-align: center;
+  }
 
   /*Home CSS*/
   .home aside{
@@ -326,6 +338,11 @@ footer {
     justify-self: center;
     align-self: center;
 }
+
+.form{
+width:50%;
+margin:0 25% 25px 25%;
+}
   }
 
 @media screen and (min-width: 768px){
@@ -351,4 +368,3 @@ footer {
         align-self: center;
       }
 }
-
