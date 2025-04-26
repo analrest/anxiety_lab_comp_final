@@ -91,11 +91,45 @@ footer {
 }
 
 /* Form CSS */
-.getting_invovled_form form{
+.getting_invovled_form {
     font-family: "Manrope";
     display: grid;
     grid-template-columns: 1fr ;
-    grid-auto-rows: auto;   
+    grid-auto-rows: auto;  
+    padding: 50px; 
+}
+
+.fname {
+    padding-top: 20px;
+}
+
+.lname {
+    padding-top: 20px;
+}
+
+.email-address {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.major {
+    padding-top: 20px;
+
+}
+
+.gpa {
+    padding-top: 20px;
+}
+
+.describe {
+    padding-top: 20px;
+}
+
+.interest {
+    padding-top: 20px;
+}
+.courses {
+    padding-top: 20px
 }
 
 
