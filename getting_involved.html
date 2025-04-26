@@ -42,85 +42,98 @@
             </h4>
         </div>
         
-        <div class="form_submission_area">
-          <form action="#">
-              <div class="fname">
-                <label for="fname"> First name</label><br>
-                <input type="text" id="fname" name="fname" required/>
-              </div>
-            
-              <div class="lname">
-                <label for="lname">Last name</label><br>
-                <input type="text" id="lname" name="lname" required/>
-              </div>
-
-              <div class="email-address">
-                <label for="email-address">Email</label><br>
-                <input type="email" id="email-address" name="email-address" required/>
-              </div>
-
-              <label for="unc-year">Year at UNC:</label><br>
-              <select id="unc-year" name="unc-year">
-                <option value="freshman">Freshman</option>
-                <option value="sophomore">Sophomore</option>
-                <option value="junior">Junior</option>
-                <option value="senior">Senior</option>
-                <option value="graduated">Already Graduated</option>
-              </select>
-
-              <div class="major">
-                <label for="major">Major:</label><br>
-                <input type="text" id="major" name="major" required/>
-              </div>
-
-              <div class="gpa">
-                <label for="gpa">GPA:</label><br>
-                <input type="text" id="gpa" name="gpa" required/>
-              </div>
-
-              <div class="describe">
-                <label for="describe"> Please describe any research experience you have, especially in psychology: </label><br>
-                <textarea id="describe" name="describe" required></textarea>
-              </div>
-
-              <div class="interest">
-                <label for="interest"> Please tell us why you are interested in joining the lab. </label><br>
-                <textarea id="interest" name="interest" required></textarea>
-              </div>
-
-              <div class="courses">
-                <label for="courses">Please check which courses you have taken (not all are required to work in the lab):</label><br>
-                <input type="checkbox" id="class1" name="class1">
-                <label for="class1">Intro to Psychology</label><br>
-              
-                <input type="checkbox" id="class2" name="class2">
-                <label for="class2">Abnormal Psychology</label><br>
-              
-                <input type="checkbox" id="class3" name="class3">
-                <label for="class3">Psychological Statistics</label><br>
-              
-                <input type="checkbox" id="class4" name="class4">
-                <label for="class4">Research and Methods in Psychology</label><br>
-              
-                <input type="checkbox" id="class5" name="class5">
-                <label for="class5">Introduction to Clinical Psychology</label><br>
-              </div>
-              
-              <div class="interests">
-                <label for="interests">I am interested in this position for:</input><br>
-                <input type="checkbox" id="interest1" name="interest1">
-                <label for="interest1">Volunteering in the lab to see if I like research</label><br>
-              
-                <input type="checkbox" id="interest2" name="interest2">
-                <label for="interest2">Research experience for applying to jobs/graduate school</label><br>
-              
-                <input type="checkbox" id="interest3" name="interest3">
-                <label for="interest3">PSYC 395 credit</label><br>
-              
-                <input type="checkbox" id="interest4" name="interest4">
-                <label for="interest4">Honors Thesis</label><br>
-              </div>              
+      <div class="form_submission_area">
+        <form action="#">
+          <div class="name-container">
+            <div class="fname">
+              <label for="fname"> First name</label><br>
+              <input type="text" id="fname" name="fname" required/>
+            </div>
+          
+            <div class="lname">
+              <label for="lname">Last name</label><br>
+              <input type="text" id="lname" name="lname" required/>
+            </div>
           </div>
+
+
+            <div class="email-address">
+              <label for="email-address">Email</label><br>
+              <input type="email" id="email-address" name="email-address" required/>
+            </div>
+
+            <div class="unc-info">
+              <div class="unc-item">
+                <div class="unc-year">
+                    <label for="unc-year">Year at UNC:</label><br>
+                    <select id="unc-year" name="unc-year">
+                        <option value="freshman">Freshman</option>
+                        <option value="sophomore">Sophomore</option>
+                        <option value="junior">Junior</option>
+                        <option value="senior">Senior</option>
+                        <option value="graduated">Already Graduated</option>
+                    </select>
+                </div>
+              </div>
+
+              <div class="unc-item">
+                <div class="major">
+                    <label for="major">Major:</label><br>
+                    <input type="text" id="major" name="major" required/>
+                </div>
+              </div>
+
+              <div class="unc-item">
+                <div class="gpa">
+                    <label for="gpa">GPA:</label><br>
+                    <input type="text" id="gpa" name="gpa" required/>
+                </div>
+              </div>
+          </div>
+       
+            <div class="describe">
+              <label for="describe"> Please describe any research experience you have, especially in psychology: </label><br>
+              <textarea id="describe" name="describe" required></textarea>
+            </div>
+
+            <div class="interest">
+              <label for="interest"> Please tell us why you are interested in joining the lab. </label><br>
+              <textarea id="interest" name="interest" required></textarea>
+            </div>
+
+            <div class="courses">
+              <label for="courses">Please check which courses you have taken (not all are required to work in the lab):</label><br>
+              <input type="checkbox" id="class1" name="class1">
+              <label for="class1">Intro to Psychology</label><br>
+            
+              <input type="checkbox" id="class2" name="class2">
+              <label for="class2">Abnormal Psychology</label><br>
+            
+              <input type="checkbox" id="class3" name="class3">
+              <label for="class3">Psychological Statistics</label><br>
+            
+              <input type="checkbox" id="class4" name="class4">
+              <label for="class4">Research and Methods in Psychology</label><br>
+            
+              <input type="checkbox" id="class5" name="class5">
+              <label for="class5">Introduction to Clinical Psychology</label><br>
+            </div>
+            
+            <div class="interests">
+              <label for="interests">I am interested in this position for:</input><br>
+              <input type="checkbox" id="interest1" name="interest1">
+              <label for="interest1">Volunteering in the lab to see if I like research</label><br>
+            
+              <input type="checkbox" id="interest2" name="interest2">
+              <label for="interest2">Research experience for applying to jobs/graduate school</label><br>
+            
+              <input type="checkbox" id="interest3" name="interest3">
+              <label for="interest3">PSYC 395 credit</label><br>
+            
+              <input type="checkbox" id="interest4" name="interest4">
+              <label for="interest4">Honors Thesis</label><br>
+            </div>              
+        </div>
 
           <div class="submit">
             <button type="submit">Submit</button>

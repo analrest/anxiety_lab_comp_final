@@ -203,8 +203,84 @@ label, select {
 }
 
 @media screen and (min-width: 768px) {
-    .fname, .lname {
-        display: inline-block;  }
+    .form_submission_area form {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    
+    .name-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    
+    .unc-info {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+    
+    .email-address,
+    .describe,
+    .interest,
+    .courses,
+    .interests {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    textarea {
+        width: 100%;
+        padding: 0.75rem;
+        font-size: 1rem;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    select {
+        width: 100%;
+        padding: 0.75rem;
+        font-size: 1rem;
+    }
+    
+    .courses label,
+    .interests label {
+        font-weight: normal;
+    }
+    
+    label {
+        font-weight: bold;
+    }
+
+
+/*
+    .name-container {
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+
+    .unc-info {
+        display: grid; 
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .unc-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .unc-item label {
+        margin-bottom: 0.25rem; /* Add a small gap between label and field 
+        font-weight: bold; /* Optional: makes labels consistent 
+    }
+    
+ 
+
     
     input, select, textarea {
         width: 100%;
@@ -213,6 +289,20 @@ label, select {
         margin-bottom: 12px;
         box-sizing: border-box;
         }
-    
+
+        #describe {
+            width: 90vw;
+            height: 150px;
+        }
+        
+        .interest {
+            padding-top: 20px;
+        }
+        
+        #interest {
+            width: 90vw;
+            height: 150px;
+        }
+        
     
     }
