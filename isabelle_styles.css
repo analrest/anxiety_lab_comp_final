@@ -88,13 +88,6 @@ footer {
 }
 
 /* Form CSS */
-fieldset.courses {
-    border: 2px darkblue
-}
-.courses {
-    border: 2px solid #4CAF50;
-  }
-
 .question {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -103,6 +96,7 @@ fieldset.courses {
     padding-bottom: 25px;
     white-space: nowrap;
 }
+
 .interest-info {
     padding-top: 15px;
 }
@@ -137,7 +131,7 @@ fieldset.courses {
 }
 
 #unc-year {
-    width: 100%;
+    width: 30%;
 }
 
 label, select {
@@ -173,15 +167,26 @@ label, select {
 #interest {
     width: 80vw;
     height: 150px;
-
 }
 
 .courses {
     padding-top: 20px;
 }
 
+.courses label {
+    margin-bottom: 20px;
+}
+
+.courses input{
+    margin-bottom:9px;
+}
+
 .interests {
     padding-top: 20px;
+}
+
+.interests input {
+    margin-bottom: 9px;
 }
 
 .submit {
@@ -197,32 +202,16 @@ label, select {
 }
 
 @media screen and (min-width: 768px) {
-    form {
-        display: grid;     
-        grid-template-columns: 1fr 1fr;
-        grid-auto-rows: auto;    
-    }
-
-    .fname {
-        grid-column: 1/2;
-    }
-
-    .lname {
-        grid-column: 2/3;
-    }
-
-    .email-address {
-        grid-column: 1/3;
-        grid-row: 2;
-    }
-
-    .unc-year {
-        grid-column: 1/2;
-        grid-row: 3;
-    }
+    .fname, .lname {
+        display: inline-block;  }
     
-    .major {
-        grid-column 2/3;
-        grid-row: 3;
+    input, select, textarea {
+        width: 100%;
+        padding: 8px;
+        margin-top: 4px;
+        margin-bottom: 12px;
+        box-sizing: border-box;
+        }
+    
+    
     }
-}
