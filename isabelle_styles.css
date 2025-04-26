@@ -7,9 +7,6 @@
 
 body{
     background-color:#deeff6;
-}
-
-h1, h2, h3, h4, h5, p{
     font-family: "Manrope";
     color: #033661;
 }
@@ -91,6 +88,19 @@ footer {
 }
 
 /* Form CSS */
+.getting-involved-header {
+    padding-bottom: 25px;
+}
+.interest-info {
+    padding-top: 15px;
+}
+
+.red-text {
+    padding-top: 15px;
+    color: red;
+    font-style: italic;
+
+}
 .getting_invovled_form {
     font-family: "Manrope";
     display: flex;
