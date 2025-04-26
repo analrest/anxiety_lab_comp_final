@@ -30,7 +30,7 @@
       <div class="question">
             <h3> Are you a Psychology Major at UNC looking for opportunities to join a research lab? </h3>
           </div>
-          <p> Our research group includes a large team of undergraduate Psychology majors who help us run experiments, collect, enter, and analyze data, and work on posters and papers for conferences and publications. Undergraduate students typically get direct experience with much of the process of planning, running, and communicating the results of research studies–skils that are required for admission to top doctoral programs in psychology. Undergraduates may work as volunteers, for course credit (e.g., the PSYC 395 course), or as Honors Students.
+          <p> Our research group includes a large team of undergraduate Psychology majors who help us run experiments, collect, enter, and analyze data, and work on posters and papers for conferences and publications. Undergraduate students typically get direct experience with much of the process of planning, running, and communicating the results of research studies–skills that are required for admission to top doctoral programs in psychology. Undergraduates may work as volunteers, for course credit (e.g., the PSYC 395 course), or as Honors Students.
             Our weekly lab meetings are Fridays from 11 am to 12 noon. Attending these meetings is the best way to check in about lab projects, discuss applying to graduate school and other professional issues, learn about new developments in the field of anxiety and clinical psychology, and discuss other topics and ideas. Although it is not required that you attend, it is certainly the best way to stay linked in to the lab.</p>
           <div class="interest-info">
           <h3>If you are interested in joining our lab, please complete the application below. We will get in touch to set up an interview if applicable. </h3>
@@ -54,7 +54,7 @@
 
               <div class="email-address">
                 <label for="email-address">Email</label><br>
-                <input type="text" id="email-address" name="email-address" required/>
+                <input type="email" id="email-address" name="email-address" required/>
               </div>
 
 
@@ -79,7 +79,7 @@
 
               <div class="describe">
                 <label for="describe"> Please describe any research experience you have, especially in psychology: </label><br>
-                <textarea id="describe" name="describe" required/></textarea>
+                <textarea id="describe" name="describe" required></textarea>
               </div>
 
               <div class="interest">
@@ -87,31 +87,39 @@
                 <textarea id="interest" name="interest" required/></textarea>
               </div>
 
-              <div class="courses">
-                <label for="courses"> Please check which courses you have taken (not all are required to work in the lab): </label><br>
+              <fieldset class="courses">
+                <legend>Please check which courses you have taken (not all are required to work in the lab):</legend>
                 <input type="checkbox" id="class1" name="class1">
-                <label for="class1">  Intro to Psychology</label><br>
+                <label for="class1">Intro to Psychology</label><br>
+              
                 <input type="checkbox" id="class2" name="class2">
-                <label for="class2"> Abnormal Psychology </label><br>
+                <label for="class2">Abnormal Psychology</label><br>
+              
                 <input type="checkbox" id="class3" name="class3">
-                <label for="class4"> Psychological Statistics </label><br>
+                <label for="class3">Psychological Statistics</label><br>
+              
                 <input type="checkbox" id="class4" name="class4">
-                <label for="class4"> Research and Methods in Psychology </label><br>
+                <label for="class4">Research and Methods in Psychology</label><br>
+              
                 <input type="checkbox" id="class5" name="class5">
-                <label for="class5"> Introduction to Clinical Psychology </label><br>
-              </div>
+                <label for="class5">Introduction to Clinical Psychology</label><br>
+              </fieldset>
+              
 
-              <div class="interests">
-                <label for="interests"> I am interested in this position for: </label><br>
+              <fieldset class="interests">
+                <legend>I am interested in this position for:</legend>
                 <input type="checkbox" id="interest1" name="interest1">
-                <label for="interest1">  Volunteering in the lab to see if I like research </label><br>
+                <label for="interest1">Volunteering in the lab to see if I like research</label><br>
+              
                 <input type="checkbox" id="interest2" name="interest2">
-                <label for="interest2">  Research experience for applying to jobs/graduate school </label><br>
+                <label for="interest2">Research experience for applying to jobs/graduate school</label><br>
+              
                 <input type="checkbox" id="interest3" name="interest3">
-                <label for="interest3">  PSYCH 395 credit </label><br>
+                <label for="interest3">PSYC 395 credit</label><br>
+              
                 <input type="checkbox" id="interest4" name="interest4">
-                <label for="interest4"> Honors Thesis </label><br>
-              </div>
+                <label for="interest4">Honors Thesis</label><br>
+              </fieldset>              
           </div>
 
           <div class="submit">
