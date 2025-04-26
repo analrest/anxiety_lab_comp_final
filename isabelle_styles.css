@@ -88,6 +88,12 @@ footer {
 }
 
 /* Form CSS */
+fieldset.courses {
+    border: 2px darkblue
+}
+.courses {
+    border: 2px solid #4CAF50;
+  }
 
 .question {
     padding-top: 20px;
@@ -132,6 +138,10 @@ footer {
 
 #unc-year {
     width: 100%;
+}
+
+label, select {
+    font-family: "Manrope";
 }
 
 .email-address {
