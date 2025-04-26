@@ -162,7 +162,8 @@ label, select {
 }
 
 #describe {
-    width: 80vw
+    width: 80vw;
+    height: 150px;
 }
 
 .interest {
@@ -170,7 +171,9 @@ label, select {
 }
 
 #interest {
-    width: 80vw
+    width: 80vw;
+    height: 150px;
+
 }
 
 .courses {
