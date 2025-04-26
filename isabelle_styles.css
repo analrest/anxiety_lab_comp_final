@@ -88,6 +88,12 @@ footer {
 }
 
 /* Form CSS */
+form {border: 3px solid blue}
+
+.question {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 .getting-involved-header {
     padding-bottom: 25px;
     white-space: nowrap;
@@ -135,12 +141,24 @@ footer {
     padding-top: 20px;
 }
 
+#describe {
+    width: 80vw
+}
+
 .interest {
     padding-top: 20px;
 }
 
+#interest {
+    width: 80vw
+}
+
 .courses {
-    padding-top: 20px
+    padding-top: 20px;
+}
+
+.interests {
+    padding-top: 20px;
 }
 
 .submit {
