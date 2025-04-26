@@ -89,6 +89,16 @@ footer {
 }
 
 /* Form CSS */
+.name-container label,
+.email-address label,
+.unc-year label,
+.unc-info label,
+.describe label,
+.interest label,
+.section-title {
+    font-weight: bold;
+}
+
 .question {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -245,12 +255,8 @@ label, select {
         font-size: 1rem;
     }
     
-    
-    label {
-        font-weight: bold;
-    }
-
     .courses {
         font-weight: normal;
     }
+
 }
