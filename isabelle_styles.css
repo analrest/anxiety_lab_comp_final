@@ -88,7 +88,6 @@ footer {
 }
 
 /* Form CSS */
-form {border: 3px solid blue}
 
 .question {
     padding-top: 20px;
@@ -112,7 +111,7 @@ form {border: 3px solid blue}
     font-family: "Manrope";
     display: flex;
     flex-direction: column; 
-    padding: 50px; 
+    padding: 40px; 
 }
 
 .fname {
@@ -130,7 +129,6 @@ form {border: 3px solid blue}
 
 .major {
     padding-top: 20px;
-
 }
 
 .gpa {
@@ -172,8 +170,4 @@ form {border: 3px solid blue}
     font-family: "Manrope";
     padding: 10px 35px ;
 }
-
-
-/* Media query */
-@media screen and (min-width: 768px) {
 
