@@ -225,9 +225,7 @@ label, select {
     
     .email-address,
     .describe,
-    .interest,
-    .courses,
-    .interests {
+    .interest {
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
@@ -255,54 +253,4 @@ label, select {
     label {
         font-weight: bold;
     }
-
-
-/*
-    .name-container {
-        display: grid; 
-        grid-template-columns: 1fr 1fr;
-        justify-content: center;
-    }
-
-    .unc-info {
-        display: grid; 
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-
-    .unc-item {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .unc-item label {
-        margin-bottom: 0.25rem; /* Add a small gap between label and field 
-        font-weight: bold; /* Optional: makes labels consistent 
-    }
-    
- 
-
-    
-    input, select, textarea {
-        width: 100%;
-        padding: 8px;
-        margin-top: 4px;
-        margin-bottom: 12px;
-        box-sizing: border-box;
-        }
-
-        #describe {
-            width: 90vw;
-            height: 150px;
-        }
-        
-        .interest {
-            padding-top: 20px;
-        }
-        
-        #interest {
-            width: 90vw;
-            height: 150px;
-        }
-        
-    
-    }
+}
