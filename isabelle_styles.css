@@ -90,6 +90,7 @@ footer {
 /* Form CSS */
 .getting-involved-header {
     padding-bottom: 25px;
+    white-space: nowrap;
 }
 .interest-info {
     padding-top: 15px;
@@ -101,7 +102,7 @@ footer {
     font-style: italic;
 
 }
-.getting_invovled_form {
+.getting_involved_form {
     font-family: "Manrope";
     display: flex;
     flex-direction: column; 
