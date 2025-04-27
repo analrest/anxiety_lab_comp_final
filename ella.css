@@ -297,7 +297,7 @@ footer {
       margin-top: 20px;
   }
   
-  .about_lab_main p, .grad_students_main p{
+  .about_lab_main p, .grad_students_main p, .reading_list_main p{
     font-size: 18px;
     color: black;
     font-family: "Manrope";
@@ -309,6 +309,14 @@ footer {
     color: red;
     font-family: "Manrope";
     margin-left: 30px;
+    padding: 20px 0 0 0;
+  }
+
+  .books{
+    font-size: 18px;
+    color: black;
+    font-family: "Manrope";
+    margin-left: 40px;
     padding: 20px 0 0 0;
   }
   
