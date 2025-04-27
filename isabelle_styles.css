@@ -7,7 +7,7 @@
 }
 
 p {
-    font-family: "Newsreader";
+    font-family: "Manrope";
 }
 
 body{
@@ -155,7 +155,8 @@ form {
 .unc-info label,
 .describe label,
 .interest label,
-.section-title {
+.section-title1,
+.section-title2 {
     font-weight: bold;
 }
 
@@ -249,9 +250,16 @@ label, select {
     margin-bottom: 20px;
 }
 
-.section-title {
+.section-title1 {
     padding-bottom: 18px;
 }
+
+.section-title2 {
+    padding-top: 5px;
+    padding-bottom: 18px;
+}
+
+
 .courses input{
     margin-bottom:9px;
 }
@@ -269,6 +277,7 @@ label, select {
     flex-direction: row;
     justify-content: center;
     padding-bottom: 20px;
+    padding-top: 20px;
 
 }
 .submit button {
@@ -277,9 +286,13 @@ label, select {
 }
 
 @media screen and (min-width: 768px) {
+
+    .getting_involved_form {
+        padding-left: 15rem;
+        padding-right: 15rem;
+    }
+
     .form_submission_area {
-        padding-left: 5.5rem;
-        padding-right: 5.5rem;
         border: none;
     }
 
@@ -290,7 +303,6 @@ label, select {
         padding: 2rem; 
     }
 
-    
     .name-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -305,7 +317,6 @@ label, select {
         width: auto;
     }
     
- 
     textarea {
         width: 90%;
         padding: 0.75rem;
@@ -326,6 +337,11 @@ label, select {
 
     input {
         width: auto;
+    }
+
+    .submit button {
+        font-family: "Manrope";
+        padding: 15px 100px ;
     }
 
 }
