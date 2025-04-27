@@ -272,6 +272,12 @@ label, select {
     margin-bottom: 9px;
 }
 
+
+input:hover, textarea:hover{
+    border:solid #033661 2px;
+    border-radius: 2px;
+    }
+
 .submit {
     display: flex;
     flex-direction: row;
@@ -280,10 +286,22 @@ label, select {
     padding-top: 20px;
 
 }
+  
 .submit button {
-    font-family: "Manrope";
-    padding: 10px 35px ;
-}
+    width:100%;
+    padding:0.5rem;
+    border:none;
+    border-radius: 10px;
+    background-size: 300vw;
+    color:aliceblue;
+    background-color: rgba(9,55,91);
+    transition: background-color 1s;
+  }
+
+.submit button:hover, .submit button:focus {
+    cursor:pointer;
+    background-color: #87C4E1;
+  } 
 
 @media screen and (min-width: 768px) {
 
