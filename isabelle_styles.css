@@ -274,11 +274,15 @@ label, select {
 }
 
 @media screen and (min-width: 768px) {
+    .getting_involved_form {
+        margin: 25px
+    }
     .form_submission_area form {
         display: flex;
         flex-direction: column;
         max-width: 900px;
         margin: 20px;
+        gap: 2rem;
     }
     
     .name-container {
@@ -293,7 +297,6 @@ label, select {
         gap: 1rem;
     }
     
-    .email-address,
     .describe,
     .interest {
         display: flex;
