@@ -93,7 +93,7 @@ img{
         text-decoration: underline;
     }
     
-    .dropdown:hover, .dropdown:focus, .submenubar {
+    .dropdown:hover .submenubar {
         display: block;
     }
 
@@ -442,7 +442,7 @@ margin:0 25% 25px 25%;
     text-decoration: underline;
   }
 
-  .dropdown:hover, .dropdown:focus, .submenubar {
+  .dropdown:hover .submenubar {
     display: block;
     top: 100%;
     left: 0;
