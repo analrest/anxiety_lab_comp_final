@@ -4,7 +4,10 @@
     box-sizing: border-box;
     margin: 0;
     font-family: "Manrope";
+}
 
+p {
+    font-family: "Newsreader";
 }
 
 body{
@@ -137,6 +140,15 @@ footer {
 }
 
 /* Form CSS */
+
+.form_submission_area {
+    border: solid 3px #033661;
+}
+
+form {
+    margin: 10px;
+}
+
 .name-container label,
 .email-address label,
 .unc-year label,
@@ -151,6 +163,7 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 .getting-involved-header {
     padding-bottom: 25px;
     white-space: nowrap;
@@ -264,9 +277,8 @@ label, select {
     .form_submission_area form {
         display: flex;
         flex-direction: column;
-        gap: 2rem;
         max-width: 900px;
-        margin: 0 auto;
+        margin: 20px;
     }
     
     .name-container {
@@ -286,7 +298,6 @@ label, select {
     .interest {
         display: flex;
         flex-direction: column;
-        gap: 2px;
     }
     
     textarea {
@@ -299,7 +310,7 @@ label, select {
     input[type="email"],
     select {
         width: 100%;
-        padding: 8px;
+        padding: 3px;
         font-size: 1rem;
     }
     

@@ -7,6 +7,10 @@
 
 }
 
+p {    
+    font-family: "Newsreader";
+}
+
 body{
     background-color:#deeff6;
     color: #033661;
@@ -24,6 +28,7 @@ nav ul {
     column-gap: 40px;
     background-color: rgba(9,55,91);
 }
+
 ul li {
     text-decoration: none;
     display: inline-block;
