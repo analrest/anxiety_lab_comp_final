@@ -47,6 +47,9 @@ img{
         padding:0;
         margin: 30px 0;
     }
+    nav li:hover, nav li:focus {
+        text-decoration: underline;
+    }
 
     .menubar {
         display: flex;
@@ -90,7 +93,7 @@ img{
         text-decoration: underline;
     }
     
-    .dropdown:hover .submenubar {
+    .dropdown:hover, .dropdown:focus, .submenubar {
         display: block;
     }
 
@@ -285,6 +288,28 @@ footer {
     display:grid;
     justify-content:center;
   }
+    /*Ana's pages (about the lab, prospective grad students, reading list) CSS*/
+    .about_lab_main h1, .grad_students_main h1 {
+      font-size: 40px;
+      color: #033661;
+      font-family: "Manrope";
+      margin-top: 20px;
+  }
+  
+  .about_lab_main p, .grad_students_main p{
+    font-size: 18px;
+    color: black;
+    font-family: "Manrope";
+    margin-left: 30px;
+    padding: 20px 0 0 0;
+  }
+  .red_text{
+    font-size: 18px;
+    color: red;
+    font-family: "Manrope";
+    margin-left: 30px;
+    padding: 20px 0 0 0;
+  }
 
 
   @media screen and (min-width: 700px) {
@@ -417,11 +442,26 @@ margin:0 25% 25px 25%;
     text-decoration: underline;
   }
 
-  .dropdown:hover .submenubar {
+  .dropdown:hover, .dropdown:focus, .submenubar {
     display: block;
     top: 100%;
     left: 0;
     width: 130%;
+  }
+
+  /*About The Anxiety Lab CSS*/
+    .about_lab_main h1 {
+      font-size: 40px;
+      color: #033661;
+      font-family: "Manrope";
+      margin-top: 20px;
+  }
+  .about_lab_main p {
+    font-size: 18px;
+    color: black;
+    font-family: "Manrope";
+    margin-left: 30px;
+    padding: 20px 0;
   }
 
 
