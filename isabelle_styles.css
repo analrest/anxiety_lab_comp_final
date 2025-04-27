@@ -249,6 +249,9 @@ label, select {
     margin-bottom: 20px;
 }
 
+.section-title {
+    padding-bottom: 18px;
+}
 .courses input{
     margin-bottom:9px;
 }
