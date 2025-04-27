@@ -46,6 +46,92 @@ article h1{
     font-size: 40px;
 }
 
+main{
+    margin: 15px 5%;
+}
+
+img{
+  border-radius: 20px;
+}
+
+/*Header CSS*/
+
+    .headershort{
+      max-width:300px;
+      margin:10px 5px 0 10px;
+    }
+
+    .headcontainer{
+      display:grid;
+      justify-content: center;
+    }
+
+/*Nav CSS*/
+    nav{
+        background-color: #033661;
+        padding:0;
+        margin: 30px 0;
+    }
+
+    .menubar {
+        display: flex;
+    }
+    
+    .menubar li:hover, .menubar li:focus{
+        background-color: #87C4E1;
+    }
+    
+    .menubar li{
+        display:block;
+        position:relative;
+        padding:1rem;
+        float:right;
+        size:1.5rem;
+    }
+
+    .menubar ul{
+        display: none;
+        border: solid green 2px;
+        text-align: left;
+        flex-direction: column;
+        position: absolute;
+    }
+    
+    .menubar a{
+        text-decoration: none;
+        color: white;
+        font-family: "Manrope";
+        font-weight: bold;
+    }
+
+    .submenubar {
+        display: none;
+        list-style: none;
+        position: absolute;
+        background-color: #87C4E1;
+        border: solid rgb(0, 255, 8) 2px;
+    }
+
+    .submenubar a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-family: "Manrope";
+        font-weight: bold;
+    }
+
+    .submenubar li:hover, .submenubar li:focus {
+        text-decoration: underline;
+    }
+    
+    .dropdown:hover .submenubar {
+        display: block;
+        top: 100%;
+        left: 0;
+        width: 130%;
+    }
+
+
 /*Footer CSS*/
 footer {
     background-color: rgba(9,55,91);

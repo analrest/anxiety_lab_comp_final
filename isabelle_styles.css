@@ -16,35 +16,83 @@ img{
     max-width: 100%;
     max-height: 100vh;
 }
-nav ul {
-    padding: 20px;
-    display: flex;
-    list-style-type: none;
-    justify-content: flex-end;
-    column-gap: 40px;
-    background-color: rgba(9,55,91);
-}
-ul li {
-    text-decoration: none;
-    display: inline-block;
-}
-a {
-    text-decoration: none;
-    color: rgb(224, 224, 224);
-    font-size: 32px;
-}
-article {
-    margin: 0 15%;
-    background-color: rgb(194,228,242);
-    color: rgba(9,55,91);
-    padding: 20px;
-}
-article p{
-    font-size: 32px;
-}
-article h1{
-    font-size: 40px;
-}
+/*Header CSS*/
+
+.headershort{
+    max-width:300px;
+    margin:10px 5px 0 10px;
+  }
+
+  .headcontainer{
+    display:grid;
+    justify-content: center;
+  }
+
+/*Nav CSS*/
+  nav{
+      background-color: #033661;
+      padding:0;
+      margin: 30px 0;
+  }
+
+  .menubar {
+      display: flex;
+  }
+  
+  .menubar li:hover, .menubar li:focus{
+      background-color: #87C4E1;
+  }
+  
+  .menubar li{
+      display:block;
+      position:relative;
+      padding:1rem;
+      float:right;
+      size:1.5rem;
+  }
+
+  .menubar ul{
+      display: none;
+      border: solid green 2px;
+      text-align: left;
+      flex-direction: column;
+      position: absolute;
+  }
+  
+  .menubar a{
+      text-decoration: none;
+      color: white;
+      font-family: "Manrope";
+      font-weight: bold;
+  }
+
+  .submenubar {
+      display: none;
+      list-style: none;
+      position: absolute;
+      background-color: #87C4E1;
+      border: solid rgb(0, 255, 8) 2px;
+  }
+
+  .submenubar a{
+      display: block;
+      text-decoration: none;
+      color: white;
+      font-family: "Manrope";
+      font-weight: bold;
+  }
+
+  .submenubar li:hover, .submenubar li:focus {
+      text-decoration: underline;
+  }
+  
+  .dropdown:hover .submenubar {
+      display: block;
+      top: 100%;
+      left: 0;
+      width: 130%;
+  }
+
 
 /*Footer CSS*/
 footer {
