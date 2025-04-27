@@ -7,9 +7,6 @@
 
 }
 
-p {    
-    font-family: "Newsreader";
-}
 
 body{
     background-color:#deeff6;
@@ -183,20 +180,24 @@ footer {
 .lab-picture {
     display: flex;
     justify-content: center;
+    padding-bottom: 15px;
 }
 
 .lab-picture img {
     width: 90%;
-    border: 18px solid rgba(9,55,91);
 }
 /* Lab bio */
-.member-bio-container {
+
+.member-bio {
     display: flex;
     flex-direction: column;
 }
 
+/*
 .member-bio {
     display: grid;
     grid-template-columns: 0.5fr 1fr;
     grid-auto-rows: auto;
 }
+*/
+
