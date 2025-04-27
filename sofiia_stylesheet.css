@@ -12,6 +12,13 @@ body {
     background-color:#deeff6;
 }
 
+p, li{
+    font-family: "Newsreader";
+    color: #033661;
+    font-size: 1.2rem;
+    line-height: 1.3em;
+}
+
 /*Header CSS*/
 
 .headcontainer {
@@ -24,15 +31,19 @@ body {
     margin: 10px 5px 0 10px;
 }
 
-/*Nav CSS*/
-nav{
+/*Nav CSS Mobile*/
+nav {
     background-color: #033661;
     padding:0;
     margin: 30px 0;
 }
+nav li:hover, nav li:focus {
+    text-decoration: underline;
+}
 
 .menubar {
     display: flex;
+    flex-direction: column;
 }
 
 .menubar li:hover, .menubar li:focus{
@@ -40,35 +51,24 @@ nav{
 }
 
 .menubar li{
-    display:block;
     position:relative;
     padding:1rem;
     float:right;
     size:1.5rem;
 }
 
-.menubar ul{
-    display: none;
-    border: solid green 2px;
-    text-align: left;
-    flex-direction: column;
-    position: absolute;
-}
-
-.menubar a{
+.menubar li a{
     text-decoration: none;
     color: white;
     font-family: "Manrope";
     font-weight: bold;
+    display: block;
 }
 
 .submenubar {
-    width: 100%;
     display: none;
     list-style: none;
-    position: absolute;
-    background-color: #033661;
-    border: solid rgb(0, 255, 8) 2px;
+    background-color: #87C4E1;
 }
 
 .submenubar a{
@@ -79,17 +79,80 @@ nav{
     font-weight: bold;
 }
 
-.menubar li:hover, .submenubar li:hover, .submenubar li:focus {
+.submenubar li:hover, .submenubar li:focus {
     text-decoration: underline;
-    background-color: #87C4E1;
-
 }
 
 .dropdown:hover .submenubar {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Nav Laptop view */
+@media screen and (min-width: 700px){
+  /*Nav CSS*/
+  nav{
+    background-color: #033661;
+    padding:0;
+    margin: 30px 0;
+  }
+
+  .menubar {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .menubar li:hover, .menubar li:focus{
+    background-color: #87C4E1;
+  }
+
+  .menubar li{
+    display:block;
+    position:relative;
+    padding:1rem;
+    float:right;
+    size:1.5rem;
+  }
+
+  .menubar ul{
+    display: none;
+    text-align: left;
+    flex-direction: column;
+    position: absolute;
+  }
+
+  .menubar a{
+    text-decoration: none;
+    color: white;
+    font-family: "Manrope";
+    font-weight: bold;
+  }
+
+  .submenubar {
+    display: none;
+    list-style: none;
+    position: absolute;
+    background-color: #87C4E1;
+  }
+
+  .submenubar a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: "Manrope";
+    font-weight: bold;
+  }
+
+  .submenubar li:hover, .submenubar li:focus {
+    text-decoration: underline;
+  }
+
+  .dropdown:hover .submenubar {
     display: block;
     top: 100%;
     left: 0;
     width: 130%;
+  }
 }
 
 /* Research main section */
@@ -114,7 +177,6 @@ nav{
 }
 
 .research-main p {
-    font-size: 18px;
     color: black;
     font-family: "Manrope";
     margin-left: 30px;
@@ -135,10 +197,13 @@ nav{
 }
 
 .research-main .publication_list {
+    display: flex;
+    flex-direction: column;
     background-color: #f5fcff;
     border-radius: 20px;
-    padding: 5px 30px;
     margin: 30px 0;
+    overflow: hidden;
+    padding: 5px 30px;
 }
 
 .research-main .publication_list p {
@@ -155,7 +220,7 @@ nav{
         margin: 0 7%;
     }
 
-    .publication_list {
+    .research-main .publication_list {
         display: flex;
         flex-direction: row;
     }
