@@ -188,16 +188,16 @@ footer {
 }
 /* Lab bio */
 
+
 .member-bio {
     display: flex;
     flex-direction: column;
 }
 
-/*
+@media screen and (min-width: 768px) {
 .member-bio {
     display: grid;
     grid-template-columns: 0.5fr 1fr;
     grid-auto-rows: auto;
 }
-*/
-
+}
