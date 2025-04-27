@@ -187,7 +187,10 @@ footer {
     width: 90%;
 }
 /* Lab bio */
-
+.member-bio-container {
+    margin-left: 15px;
+    margin-right: 15px;
+}
 
 .member-bio {
     display: flex;

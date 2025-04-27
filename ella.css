@@ -94,7 +94,8 @@ img{
     }
     
     .dropdown:hover .submenubar {
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
 
 
@@ -310,6 +311,20 @@ footer {
     margin-left: 30px;
     padding: 20px 0 0 0;
   }
+  
+  .grad_students_main h3 {
+    font-size: 28px;
+    color: #1F69A6;
+    font-family: "Manrope";
+    margin: 30px 0 7px 30px;
+  }
+  .grad_students_main ol li{
+    font-size: 18px;
+    color: black;
+    font-family: "Manrope";
+    margin-left: 30px;
+    padding: 10px 0 0 0;
+  }
 
 
   @media screen and (min-width: 700px) {
@@ -406,7 +421,6 @@ margin:0 25% 25px 25%;
     position:relative;
     padding:1rem;
     float:right;
-    size:1.5rem;
   }
 
   .menubar ul{
