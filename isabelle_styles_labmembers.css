@@ -193,15 +193,33 @@ footer {
 
 
 @media screen and (min-width: 700px) {
+  .headshot img {
+    width: 190px;    /* width */
+    height: 280px;   /* taller height for a rectangle */
+    object-fit: cover; /* crops neatly */
+  }
+
   .lab-pic-container {
     margin-left: 80px;
     margin-right: 80px;
   }
 
+  .member-bio-container {
+    padding-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+
   .member-bio {
     display: grid;
     grid-template-columns: 0.5fr 1fr;
-    grid-auto-rows: auto;}
+    grid-auto-rows: auto;
+    padding-bottom: 30px;
+    align-items: center;
+  }
+
+
 
   .grad-alum-names {
     padding-bottom: 40px;
