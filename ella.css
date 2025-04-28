@@ -100,7 +100,8 @@ img{
     .dropdown:focus{
       display: flex;
       flex-direction: column;
-  }
+  } 
+
 
 
 /*Footer CSS*/
