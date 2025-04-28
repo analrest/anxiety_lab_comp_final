@@ -19,7 +19,6 @@ img{
     max-width: 100%;
     max-height: 100vh;
 }
-/*Header CSS*/
 
 /*Header CSS*/
 
@@ -30,7 +29,8 @@ img{
 
 .headcontainer{
   display:grid;
-  justify-content: center;
+  just
+  ify-content: center;
 }
 /*Nav CSS Mobile*/
 nav{

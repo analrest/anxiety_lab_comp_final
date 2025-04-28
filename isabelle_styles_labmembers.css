@@ -12,13 +12,6 @@ body{
     color: #033661;
 }
 
-.headshot img {
-  width: 100%; 
-  max-width: 400px; 
-  height: auto; 
-  object-fit: cover;
-}
-
 /*Header CSS*/
 
 .headershort{
@@ -31,9 +24,6 @@ body{
   justify-content: center;
 }
 
-img{
-  border-radius: 20px;
-}
 
 
 /*Nav CSS Mobile*/
