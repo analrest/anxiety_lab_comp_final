@@ -190,16 +190,19 @@ footer {
     list-style-type: circle;
 }
 
-@media screen and (min-width: 768px) {
-.member-bio {
-    display: grid;
-    grid-template-columns: 0.5fr 1fr;
-    grid-auto-rows: auto;
-}
-}
 
 
 @media screen and (min-width: 700px) {
+  .lab-pic-container {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+  .member-bio {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-auto-rows: auto;}
+
     /*Nav CSS*/
     nav{
       background-color: #033661;
@@ -313,4 +316,4 @@ footer {
   justify-self: center;
   align-self: center;
 }
-  }
+}
