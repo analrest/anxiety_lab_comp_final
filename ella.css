@@ -305,22 +305,22 @@ footer {
   .about_lab_main p, .grad_students_main p, .reading_list_main p{
     font-size: 18px;
     color: black;
-    font-family: "Manrope";
+    font-family: "Newsreader";
     margin-left: 30px;
     padding: 20px 0 0 0;
   }
   .red_text{
     font-size: 18px;
     color: red;
-    font-family: "Manrope";
+    font-family: "Newsreader";
     margin-left: 30px;
     padding: 20px 0 0 0;
   }
 
-  .books{
+  .books {
     font-size: 18px;
     color: black;
-    font-family: "Manrope";
+    font-family: "Newsreader";
     margin-left: 40px;
     padding: 20px 0 0 0;
   }
@@ -334,7 +334,7 @@ footer {
   .grad_students_main ol li{
     font-size: 18px;
     color: black;
-    font-family: "Manrope";
+    font-family: "Newsreader";
     margin-left: 30px;
     padding: 10px 0 0 0;
   }
