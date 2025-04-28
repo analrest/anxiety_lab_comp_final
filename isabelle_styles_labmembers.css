@@ -84,7 +84,7 @@ nav{
     left: 0;
     width: 130%;
   }
-  
+
 img{
   border-radius: 20px;
 }
@@ -103,66 +103,65 @@ img{
 
 /*Nav CSS Mobile*/
 nav{
-    background-color: #033661;
-    padding:0;
-    margin: 30px 0;
-  }
-  nav li:hover, nav li:focus {
-    text-decoration: underline;
-  }
-  
-  .menubar {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .menubar li:hover, .menubar li:focus{
-    background-color: #87C4E1;
-  }
-  
-  .menubar li{
-    position:relative;
-    padding:1rem;
-    float:right;
-    size:1.5rem;
-  }
-  
-  .menubar li a{
-    text-decoration: none;
-    color: white;
-    font-family: "Manrope";
-    font-weight: bold;
-    display: block;
-  }
-  
-  .submenubar {
-    display: none;
-    list-style: none;
-    background-color: #87C4E1;
-  }
-  
-  .submenubar a{
-    display: block;
-    text-decoration: none;
-    color: white;
-    font-family: "Manrope";
-    font-weight: bold;
-  }
-  
-  .submenubar li:hover, .submenubar li:focus {
-    text-decoration: underline;
-  }
-  
-  .dropdown:hover .submenubar {
-    display: flex;
-    flex-direction: column;
-  }
-  .dropdown:focus{
+  background-color: #033661;
+  padding:0;
+  margin: 30px 0;
+}
+nav li:hover, nav li:focus {
+  text-decoration: underline;
+}
+
+.menubar {
   display: flex;
   flex-direction: column;
-  }
-  
-  
+}
+
+.menubar li:hover, .menubar li:focus{
+  background-color: #87C4E1;
+}
+
+.menubar li{
+  position:relative;
+  padding:1rem;
+  float:right;
+  size:1.5rem;
+}
+
+.menubar li a{
+  text-decoration: none;
+  color: white;
+  font-family: "Manrope";
+  font-weight: bold;
+  display: block;
+}
+
+.submenubar {
+  display: none;
+  list-style: none;
+  background-color: #87C4E1;
+}
+
+.submenubar a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-family: "Manrope";
+  font-weight: bold;
+}
+
+.submenubar li:hover, .submenubar li:focus {
+  text-decoration: underline;
+}
+
+.dropdown:hover .submenubar {
+  display: flex;
+  flex-direction: column;
+}
+.dropdown:focus{
+display: flex;
+flex-direction: column;
+} 
+
 /*Footer CSS*/
 footer {
     background-color: rgba(9,55,91);
@@ -237,3 +236,76 @@ footer {
     grid-auto-rows: auto;
 }
 }
+
+
+@media screen and (min-width: 700px) {
+
+    /*Nav CSS*/
+    nav{
+      background-color: #033661;
+      padding:0;
+      margin: 30px 0;
+    }
+  
+    .menubar {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .menubar li:hover, .menubar li:focus{
+      background-color: #87C4E1;
+    }
+  
+    .menubar li{
+      display:block;
+      position:relative;
+      padding:1rem;
+      float:right;
+    }
+  
+    .menubar ul{
+      display: none;
+      text-align: left;
+      flex-direction: column;
+      position: absolute;
+    }
+  
+    .menubar a{
+      text-decoration: none;
+      color: white;
+      font-family: "Manrope";
+      font-weight: bold;
+    }
+  
+    .submenubar {
+      display: none;
+      list-style: none;
+      position: absolute;
+      background-color: #87C4E1;
+    }
+  
+    .submenubar a{
+      display: block;
+      text-decoration: none;
+      color: white;
+      font-family: "Manrope";
+      font-weight: bold;
+    }
+  
+    .submenubar li:hover, .submenubar li:focus {
+      text-decoration: underline;
+    }
+  
+    .dropdown:hover .submenubar {
+      display: block;
+      top: 100%;
+      left: 0;
+      width: 130%;
+    }
+    .dropdown:focus {
+      display: block;
+      top: 100%;
+      left: 0;
+      width: 130%;
+    }
+  }
