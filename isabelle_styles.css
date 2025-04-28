@@ -21,16 +21,17 @@ img{
 }
 /*Header CSS*/
 
+/*Header CSS*/
+
 .headershort{
-    max-width:300px;
-    margin:10px 5px 0 10px;
-  }
+  max-width:300px;
+  margin:10px 5px 0 10px;
+}
 
-  .headcontainer{
-    display:grid;
-    justify-content: center;
-  }
-
+.headcontainer{
+  display:grid;
+  justify-content: center;
+}
 /*Nav CSS Mobile*/
 nav{
   background-color: #033661;

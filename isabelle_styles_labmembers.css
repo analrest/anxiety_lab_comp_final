@@ -16,90 +16,22 @@ img{
     max-width: 100%;
     max-height: 100vh;
 }
-/*Nav CSS*/
-nav{
-    background-color: #033661;
-    padding:0;
-    margin: 30px 0;
-  }
-  
-  .menubar {
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .menubar li:hover, .menubar li:focus{
-    background-color: #87C4E1;
-  }
-  
-  .menubar li{
-    display:block;
-    position:relative;
-    padding:1rem;
-    float:right;
-  }
-  
-  .menubar ul{
-    display: none;
-    text-align: left;
-    flex-direction: column;
-    position: absolute;
-  }
-  
-  .menubar a{
-    text-decoration: none;
-    color: white;
-    font-family: "Manrope";
-    font-weight: bold;
-  }
-  
-  .submenubar {
-    display: none;
-    list-style: none;
-    position: absolute;
-    background-color: #87C4E1;
-  }
-  
-  .submenubar a{
-    display: block;
-    text-decoration: none;
-    color: white;
-    font-family: "Manrope";
-    font-weight: bold;
-  }
-  
-  .submenubar li:hover, .submenubar li:focus {
-    text-decoration: underline;
-  }
-  
-  .dropdown:hover .submenubar {
-    display: block;
-    top: 100%;
-    left: 0;
-    width: 130%;
-  }
-  .dropdown:focus {
-    display: block;
-    top: 100%;
-    left: 0;
-    width: 130%;
-  }
+/*Header CSS*/
+
+.headershort{
+  max-width:300px;
+  margin:10px 5px 0 10px;
+}
+
+.headcontainer{
+  display:grid;
+  justify-content: center;
+}
 
 img{
   border-radius: 20px;
 }
 
-/*Header CSS*/
-
-    .headershort{
-      max-width:300px;
-      margin:10px 5px 0 10px;
-    }
-
-    .headcontainer{
-      display:grid;
-      justify-content: center;
-    }
 
 /*Nav CSS Mobile*/
 nav{
