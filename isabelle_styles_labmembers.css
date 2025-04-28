@@ -102,6 +102,10 @@ flex-direction: column;
   padding-top: 30px;
 }
 
+.graduate-alum-header {
+  padding-top: 30px;
+}
+
 /*Footer CSS*/
 footer {
     background-color: rgba(9,55,91);
