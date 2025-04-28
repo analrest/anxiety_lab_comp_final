@@ -90,8 +90,7 @@ nav li:hover, nav li:focus {
 .dropdown:focus{
 display: flex;
 flex-direction: column;
-}
-
+} 
 
 /*Footer CSS*/
 footer {
@@ -367,71 +366,75 @@ input:hover, textarea:hover{
     }
 
 }
- /*Nav CSS*/
- nav{
-  background-color: #033661;
-  padding:0;
-  margin: 30px 0;
-}
 
-.menubar {
-  display: flex;
-  flex-direction: row;
-}
+@media screen and (min-width: 700px) {
 
-.menubar li:hover, .menubar li:focus{
-  background-color: #87C4E1;
-}
+  /*Nav CSS*/
+  nav{
+    background-color: #033661;
+    padding:0;
+    margin: 30px 0;
+  }
 
-.menubar li{
-  display:block;
-  position:relative;
-  padding:1rem;
-  float:right;
-}
+  .menubar {
+    display: flex;
+    flex-direction: row;
+  }
 
-.menubar ul{
-  display: none;
-  text-align: left;
-  flex-direction: column;
-  position: absolute;
-}
+  .menubar li:hover, .menubar li:focus{
+    background-color: #87C4E1;
+  }
 
-.menubar a{
-  text-decoration: none;
-  color: white;
-  font-family: "Manrope";
-  font-weight: bold;
-}
+  .menubar li{
+    display:block;
+    position:relative;
+    padding:1rem;
+    float:right;
+  }
 
-.submenubar {
-  display: none;
-  list-style: none;
-  position: absolute;
-  background-color: #87C4E1;
-}
+  .menubar ul{
+    display: none;
+    text-align: left;
+    flex-direction: column;
+    position: absolute;
+  }
 
-.submenubar a{
-  display: block;
-  text-decoration: none;
-  color: white;
-  font-family: "Manrope";
-  font-weight: bold;
-}
+  .menubar a{
+    text-decoration: none;
+    color: white;
+    font-family: "Manrope";
+    font-weight: bold;
+  }
 
-.submenubar li:hover, .submenubar li:focus {
-  text-decoration: underline;
-}
+  .submenubar {
+    display: none;
+    list-style: none;
+    position: absolute;
+    background-color: #87C4E1;
+  }
 
-.dropdown:hover .submenubar {
-  display: block;
-  top: 100%;
-  left: 0;
-  width: 130%;
-}
-.dropdown:focus {
-  display: block;
-  top: 100%;
-  left: 0;
-  width: 130%;
+  .submenubar a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: "Manrope";
+    font-weight: bold;
+  }
+
+  .submenubar li:hover, .submenubar li:focus {
+    text-decoration: underline;
+  }
+
+  .dropdown:hover .submenubar {
+    display: block;
+    top: 100%;
+    left: 0;
+    width: 130%;
+  }
+  .dropdown:focus {
+    display: block;
+    top: 100%;
+    left: 0;
+    width: 130%;
+  }
 }
