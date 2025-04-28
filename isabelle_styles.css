@@ -55,7 +55,8 @@ nav li:hover, nav li:focus {
   position:relative;
   padding:1rem;
   float:right;
-  size:1.5rem;
+  font-size:1.2rem;
+  line-height: 1.3em
 }
 
 .menubar li a{
