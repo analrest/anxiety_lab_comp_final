@@ -157,6 +157,12 @@ footer {
     width: 100%;
 }
 
+.headshot img {
+  width: 100%
+}
+
+
+
 /* Lab bio */
 .member-bio-container {
     margin-left: 15px;
@@ -166,6 +172,10 @@ footer {
 .member-bio {
     display: flex;
     flex-direction: column;
+}
+
+.bio-text {
+  padding-bottom: 30px;
 }
 
 .undergrad-names ul {
