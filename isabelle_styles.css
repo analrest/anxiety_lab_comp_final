@@ -29,9 +29,9 @@ img{
 
 .headcontainer{
   display:grid;
-  just
-  ify-content: center;
+  justify-content: center;
 }
+
 /*Nav CSS Mobile*/
 nav{
   background-color: #033661;
