@@ -191,6 +191,20 @@ footer {
   padding-bottom: 30px;
 }
 
+.bio-text a{
+  font-family: "Newsreader";
+  font-size: 1.2rem;
+  line-height: 1.3em;
+  color: #033661;
+}
+
+.bio-text a:hover, .bio-text a:focus{
+  font-family: "Newsreader";
+  font-size: 1.2rem;
+  line-height: 1.3em;
+  color: #87C4E1;
+}
+
 .undergrad-names ul {
     list-style-type: circle;
 }
