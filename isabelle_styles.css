@@ -187,7 +187,7 @@ form {
 }
 
 .red-text {
-    color: rgb(185, 35, 35);
+    color: rgb(185, 35, 35) !important;
     font-style: italic;
     padding-bottom: 10px;
 }
