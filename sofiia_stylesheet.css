@@ -254,6 +254,7 @@ footer {
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 0.3fr;
+    clear:both;
 }
 
 .office{
@@ -286,50 +287,56 @@ footer {
     grid-column: 1/3;
     justify-self: center;
     margin: 5px;
+    border-radius: 0;
 }
 
 /*Footer CSS laptop view*/
 @media screen and (min-width: 768px) {
-    footer {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 8;
-        background-color: rgba(9,55,91);
-        color: rgb(224, 224, 224);
-        padding: 5px 5%;
-    }
-    
-    .office{
-        grid-column: 1/2;
-        grid-row:2/4;
-    }
-    .po{
-        grid-column:1/2;
-        grid-row: 5/8;
-    }
-    
-    .email, .phone, .fax{
-        text-align: end;
-    }
-    .email{ 
-        grid-column: 3/4;
-        grid-row: 2/3;
-    }
-    .phone{
-        grid-column: 3/4;
-        grid-row:4/5;
-    }
-    .fax{
-        grid-column: 3/4;
-        grid-row:6/8;
-    }
-    
-    
-    .psychlogo{
-        grid-column: 2/3;
-        grid-row:2/9;
-        max-height: 150px;
-        justify-self: center;
-        align-self: center;
-    }
-    }
+    /*Footer CSS*/
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 8;
+    background-color: rgba(9,55,91);
+    color: rgb(224, 224, 224);
+    padding: 25px 5%;
+}
+
+.office{
+    grid-column: 1/2;
+    grid-row:1/3;
+}
+.po{
+    grid-column:1/2;
+    grid-row: 4/7;
+}
+
+.email, .phone, .fax{
+    text-align: end;
+}
+.email{ 
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.phone{
+    grid-column: 3/4;
+    grid-row:3/4;
+}
+.fax{
+    grid-column: 3/4;
+    grid-row:5/7;
+}
+
+
+.psychlogo{
+    grid-column: 2/3;
+    grid-row:1/8;
+    max-height: 150px;
+    justify-self: center;
+    align-self: center;
+}
+
+.form{
+width:50%;
+margin:0 25% 25px 25%;
+}
