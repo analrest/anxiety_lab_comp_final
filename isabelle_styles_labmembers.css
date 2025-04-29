@@ -102,6 +102,10 @@ flex-direction: column;
   padding-top: 30px;
 }
 
+.grad-students-header {
+  padding-top: 50px;
+}
+
 /*Footer CSS*/
 footer {
   background-color: rgba(9,55,91);
@@ -203,6 +207,10 @@ footer {
   font-size: 1.2rem;
   line-height: 1.3em;
   color: #87C4E1;
+}
+
+.undergrad-names {
+  padding-bottom: 20px;
 }
 
 .undergrad-names ul {
