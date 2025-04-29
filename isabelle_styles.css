@@ -310,9 +310,9 @@ input:hover, textarea:hover{
     background-color: #87C4E1;
   } 
 
-.bio-text a {
-  font-family: "Newsreader";
-}
+  .bio-text {
+    font-family: "Newsreader";
+  }
 
 @media screen and (min-width: 768px) {
 
