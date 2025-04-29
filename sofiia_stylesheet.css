@@ -177,9 +177,18 @@ nav li:hover, nav li:focus {
 }
 
 .research-main p {
-    color: black;
+    color:#033661;
     font-family: "Newsreader";
     margin-left: 30px;
+}
+
+.research-main a{
+    color:#033661;
+    font-family:"Newsreader";
+}
+
+.research-main a:hover, .research-main a:focus{
+    color:#1F69A6
 }
 
 .research-main #research-intro-line,
