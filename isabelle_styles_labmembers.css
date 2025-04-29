@@ -277,7 +277,10 @@ footer {
     column-gap: 30px;
   }
 
-
+  .bullets{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
   .grad-alum-names {
     padding-bottom: 40px;
